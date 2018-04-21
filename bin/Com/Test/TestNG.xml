@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Sessions">
+	<test name="Different Testings">
+		<classes>
+			<class name ="com.Test.TestngBasic" />
+			<class name ="com.Test.ExceptionTimePutTest" />
+			<class name ="com.Test.GoogleTest" />
+			<class name ="com.Test.GoogleTitleTest" />
+			<class name ="com.Test.InvocationCountTest" />
+			<class name ="com.Test.TestNGFeatures" />
+		</classes>
+	</test>
+
+</suite>

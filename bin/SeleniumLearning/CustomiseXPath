@@ -1,0 +1,15 @@
+
+//*******************http://freecrm.com/index.html
+
+use google chrome to verify xpath is correct or not just open url in chrome and select object and right click ->inspect element then ctrl+F to get option for input path input.form.control
+
+//input[@name='username']
+//input[@type='submit' and @value='Login']
+//a[text() ='Features'] OR //a[contains(text(),'Features')]
+     
+     
+//button[@type='button' and @class='navbar-toggle'] or //button[contains(text(),'Sign Up')]
+
+//a[text()='Alerts']
+
+//a[text()='Manish Gupta']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
